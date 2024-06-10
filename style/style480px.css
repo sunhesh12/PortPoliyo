@@ -10,17 +10,22 @@
 
     .Name h6{
         /* padding-left: 0px; */
-        text-align: left;
+        /* text-align: left; */
         font-size: 13px;
     }
 
-    .skill-h6{
-        /* text-align: center; */
-        padding-left:100px ;
-    }
 
     .Name-Image-div , .About-div{
         margin-top: 30%;
 
+    }
+
+    .typewriter{
+        /* background-color: blueviolet; */
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        /* text-align: center; */
+        width: 100%;
     }
 }
