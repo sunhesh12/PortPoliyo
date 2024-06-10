@@ -72,6 +72,9 @@
         text-align: center;
         font-size: 17px;
     }
+    .Name p a .abc{
+        margin-left:calc(100%/5) ;
+    }
 
     .typewriter{
         /* background-color: blueviolet; */
