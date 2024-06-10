@@ -75,11 +75,11 @@
 
     .typewriter{
         /* background-color: blueviolet; */
-        align-items: center;
-        margin-left: 35%;
+        text-align: center;
+        margin-left: 0px;
         margin-top: 0px;
         /* text-align: center; */
-        width: 30%;
+        width: 100%;
     }
     .image{
         /* position:absolute; */
@@ -186,6 +186,87 @@
     .Name-Image-div , .About-div{
         margin-top: 30%;
 
+    }
+
+
+    
+    .Navigation-div {
+        display: none; /* Hide the sidebar navigation */
+    }
+    .Navigation-div{
+        position: fixed;
+        margin: 0px;
+        /* margin-top: 80px; */
+        padding: 0px;
+        border: 0px;
+        width:100%;
+        text-align: center;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.39);
+        z-index:100
+    }
+    
+    .Navigation-div nav{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        height: 100%;
+    }
+    
+    .Navigation-div nav ul{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        display: block;
+        list-style: none;
+        height: 100%;
+    
+        
+    }
+    .Navigation-div nav ul div{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        height: 100px;
+        width: 100%;
+        padding-top: 20px;
+        background-color: none;
+        
+    }
+    .Navigation-div nav ul div a{
+        
+        text-decoration: none;
+    }
+    
+    .Navigation-div nav ul div a li{
+        color: aliceblue;
+        background-color: none;
+        font-size: xx-large;
+        font-family: "Times New Roman", Times, serif;
+        
+    }
+
+    .sidebar-toggle {
+        display: block; 
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+
+    }
+    
+    #toggleNav{
+        background-color: rgb(0, 0, 0);
+        border: none;
+        width: 80px;
+        height: 80px;
+        z-index: 100px;
+    }
+    
+    #toggleNav img{
+        font-size: 40px;
+        width: 50px;
+        z-index: 100px;
+
+       
     }
   }
 

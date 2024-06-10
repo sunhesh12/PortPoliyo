@@ -11,20 +11,30 @@
 </head>
 <body>
     <div class="Main-Div">
-        <div class="Navigation-div">
+        <div class="sidebar-toggle">
+            <button id="toggleNav"><img src="SMS images/menu.png" ></button>
+        </div>
+        <div class="Navigation-div" id="Navigation-div">
             <nav>
                 <ul>
-                    <div><a href="#section-Home"><li>Home</li></a></div>
-                    <div><a href="#section-About"><li>About</li></a></div>
-                    <div><a href="#section-Project"><li>Project</li></a></div>
-                    <div><a href="#section-contact"><li>Contact</li></a></div>
+                    <div><a href="#section-Home" class="nav-link"><li>Home</li></a></div>
+                    <div><a href="#section-About" class="nav-link"><li>About</li></a></div>
+                    <div><a href="#section-SnA" class="nav-link"><li>Skill And Ability</li></a></div>
+                    <div><a href="#section-EnS" class="nav-link"><li>Education and Certifications</li></a></div>
+                    <div><a href="#section-Project" class="nav-link"><li>Project</li></a></div>
+                    <div><a href="#section-contact" class="nav-link"><li>Contact</li></a></div>
                 </ul>
             </nav>
-        </div> 
+        </div>
+        <!-- <div id="sidebar-icon" class="hidden">
+            <button id="sidebar-button">Sidebar</button>
+        </div> -->
+        
+        
         <div class="Body-div">
-            <div class="first-div">
+            <div class="first-div" id="first-div">
                 <section id="section-Home">
-                    <div class="Name-Image-div">
+                    <div class="Name-Image-div" >
                         <div class="image">
                             <img src="fotor-ai-2024060718648-removebg-preview.png">
                         </div>
@@ -44,24 +54,24 @@
                         <div class="content">
                             <p>
                                 <br>
-                                I am an enthusiastic and dedicated undergraduate student 
-                                pursuing a degree in Software Engineering at the University 
-                                of Sri Jayewardenepura, Sri Lanka. In addition to my degree, 
+                                I am an enthusiastic 🎉 and dedicated 🎯 undergraduate student pursuing a degree in Software 
+                                Engineering at the University of Sri Jayewardenepura, Sri Lanka. In addition to my degree, 
                                 I am expanding my knowledge through a diploma course at NIBM. 
-                                My passion lies in exploring new technologies and staying current 
-                                with advancements in the tech world. 
+                                My passion ❤️ lies in exploring new technologies 🌐 and staying 
+                                current with advancements in the tech world 🚀. 
                                 <br>
                                 <br>
-                                With a strong foundation in programming and a keen interest 
-                                in all IT-related fields, I am driven to create innovative solutions 
-                                and contribute to impactful projects. My portfolio showcases a variety 
-                                of projects that demonstrate my skills and commitment to continuous learning 
-                                and development in software engineering, design, and video development. 
-                                Whether it's through academic coursework, 
-                                personal projects, or collaborative efforts, I am constantly seeking opportunities 
-                                to enhance my expertise and make meaningful contributions to the tech community.
+                                With a strong foundation in programming 💻 and a keen interest in all IT-related fields, 
+                                I am driven to create innovative solutions 💡 and contribute to impactful projects 📈. 
+                                My portfolio showcases a variety of projects 📁 that demonstrate my skills and commitment 
+                                to continuous learning 📚 and development in software engineering, design 🎨, and video 
+                                development 🎥. Whether it's through academic coursework 📘, personal projects 🛠️, or 
+                                collaborative efforts 🤝, I am constantly seeking opportunities to enhance my expertise 
+                                and make meaningful contributions to the tech community 🌟.
                             </p>
                         </div>
+                    </section>
+                    <section id="section-SnA">
                         <div class="skill-ability-div">
                             <h1>Skill And Ability</h1>
                             <h2>Video editing</h2>
@@ -99,8 +109,57 @@
                             <p style="width: 100%; text-align: center;">
                                 <img src="Logo/download (4).jpeg" >
                                 <img src="Logo/dot_net_plain_wordmark_logo_icon_146545.png">
+                                <img src="Logo/download (6).jpeg" >
+                            </p>
+                            <h2>Soft skill</h2>
+                            <p style="width: 100%; text-align: center;">
+                                <h3>Team Work</h3>
+                                <h3>Public Speaking</h3>
+                                <h3>Communication</h3>
+                                <h3>Problem-Solving</h3>
+                                <h3>Time Management</h3>
+                                <h3>Adaptability</h3>
+                                <h3>Emotional Intelligence</h3>
+                                
                             </p>
                         </div>
+                    </section>
+                    <section id="#section-EnS">
+                        <h1>Education And Certifications</h1>
+                        <div class="container">
+                            <div class="section" id="education">
+                                <h2>Education</h2>
+                                <p><strong>Undergraduate in Software Engineering</strong></p>
+                                <p>University of Sri Jayewardenepura, Expected Graduation: 2026</p>
+                                
+                                <p><strong>Diploma in Software Engineering</strong></p>
+                                <p>NIBM, Sri Lanka</p>
+                                
+                                <p><strong>Advanced Level (A/L)</strong></p>
+                                <p>St. Peter's College, Colombo 4, 2018 - 2021</p>
+                                <p>Results: A, B, C</p>
+                                
+                                <p><strong>Ordinary Level (O/L)</strong></p>
+                                <p>Bandaragama Central, 2007 - 2017</p>
+                                <p>Results: 8A, 1C</p>
+                            </div>
+                        
+                            <!-- Certification Section -->
+                            <div class="section" id="certification">
+                                <h2>Certifications</h2>
+                                <p><strong>Certified Java Developer</strong></p>
+                                <p>IITS, 2021</p>
+                                
+                                <p><strong>Certified Python Developer</strong></p>
+                                <p>IITS, 2021</p>
+                                
+                                <p><strong>Full-Stack Web Development Certification</strong></p>
+                                <p>UOM, 2024</p>
+                            </div>
+                        
+                            <!-- Other sections of your portfolio -->
+                        </div>
+
                     </section>
                     <section id="section-Project">
                         <h1>Projects</h1>
@@ -157,56 +216,15 @@
                             </div>
                         </div>
 
-                        <h1>Video</h1>
+                        <h1>Subscribe Youtube😁</h1>
                         <div class="content">
                             <div class="project-div">
                                 <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (162).png">
-                                    <h2>Student managament system</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (284).png">
-                                    <h2>Ai Solved Puzzle</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (304).png">
-                                    <h2>Leave managament system</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (123).png">
-                                    <h2>Buddget Matching car select web site</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (59).png">
-                                    <h2>Hospitam managament system</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (4).png">
-                                    <h2>FeedBack managament system</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot (389).png">
-                                    <h2>Traval web site</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
-                                </div>
-                                <div class="projects-content">
-                                    <img alt="student managament system" src="SMS images/Screenshot 2024-06-09 003336.png">
-                                    <h2>Car sale managament system</h2>
-                                    <button>View Interfaces</button>
-                                    <a href="#"><h3>GitHub Link</h3></a>
+                                    <div class="video-container">
+                                        <iframe src="https://www.youtube.com/embed/4-Yn6QQFBCM?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <h2>My Robot-pet</h2>
+                                    <a href="https://www.youtube.com/@Mr.Secreti/videos"><button>View More Video</button></a>
                                 </div>
                             </div>
                         </div>
@@ -216,15 +234,26 @@
                     <div class="About-div" style="width: 100%; margin-left: 0px; border-radius: 0px; background-color: rgba(0, 0, 0, 0.137);">
                         <section id="section-contact">
                             <h1>Contact Detils</h1>
-                            <div class="content1">
-                                <h1 style="text-align: left;">Heshan Santhush</h1>
-                                <p>software developer/designer/post-editor/video-editor</p>
-                                <p>Email: <a href="mailto:hsdbandaranayake@gmail.com">hsdbandaranayake@gmail.com</a></p>
-                                <p>Phone: <a href="tel:+94763306301">+94 76 330 6301</a></p>
-                                <p>LinkedIn: <a href="https://linkedin.com/in/santhush-bandaranayake" target="_blank">www.linkedin.com/in/santhush-bandaranayake</a></p>
-                                <p>Website: <a href="#" target="_blank">www.SecretI.com</a></p>
-                                <p>Twitter: <a href="https://twitter.com/SanthushBandara1" target="_blank">@SanthushBandara1</a></p>
-                                <p>Location: Colombo, Sri Lanka</p>
+                            <div class="content1" style="display: flex;">
+                                <div style="width: 50%;">
+                                    <h1 style="text-align: left;">Heshan Santhush</h1>
+                                    <p>💻 software developer/designer/post-editor/video-editor</p>
+                                    <p>📧 Email: <a href="mailto:hsdbandaranayake@gmail.com">hsdbandaranayake@gmail.com</a></p>
+                                    <p>📞 Phone: <a href="tel:+94763306301">+94 76 330 6301</a></p>
+                                    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/santhush-bandaranayake" target="_blank">www.linkedin.com/in/santhush-bandaranayake</a></p>
+                                    <p>🌐 Website: <a href="#" target="_blank">www.SecretI.com</a></p>
+                                    <p>🐦 Twitter: <a href="https://twitter.com/SanthushBandara1" target="_blank">@SanthushBandara1</a></p>
+                                    <p>📍 Location: Colombo, Sri Lanka</p>
+                                </div>
+                                <div style="width: 40%;">
+                                    <h2 style="text-align: left; color: white;">🔗Other Links:</h2>
+                                    <a href="https://www.facebook.com/HSDBandaranayake/"><p>FaceBook: Heshan Bandaranayake</p></a>
+                                    <a href="https://www.youtube.com/@Mr.Secreti"><p>Youtube: Mr.SecretI</p></a>
+                                    <a href="https://www.instagram.com/mr_secret_i?igsh=MzNlNGNkZWQ4Mg=="><p>Instergram: Mr.SecretI</p></a>
+                                    <a href="https://www.tiktok.com/@mrsecreti?_t=8n5OmNXOoFd&_r=1"><p>TikTok: Mr.SecretI</p></a>
+                                    <a href="https://github.com/sunhesh12"><p>GitHub: Heshan Santhush</p></a>
+
+                                </div>
                             </div>
                         </section>
                     </div>
