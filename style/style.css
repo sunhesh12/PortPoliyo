@@ -142,6 +142,18 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     /* background-color: red;  */
 }
+.Name p a .abc{
+    margin-left: 0px;
+}
+
+.Name p a img{
+ width: 80px;
+ border-radius: 20px;
+ float: left;
+ margin-left: 5%;
+ 
+}
+
 
 .Name h1{
     margin: 0px;
@@ -360,6 +372,14 @@ body{
 
 footer a{
     text-decoration: none;
+}
+footer a p img{
+    width: 80px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 5%;
+    
+
 }
 
 
