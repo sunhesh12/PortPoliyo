@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) {
+    .Navigation-div nav ul div {
+        margin-left: 10%;
+    }
+    .Name h1{
+        font-size: 20px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .Name h6{
+        /* padding-left: 0px; */
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .skill-h6{
+        /* text-align: center; */
+        padding-left:100px ;
+    }
+
+    .Name-Image-div , .About-div{
+        margin-top: 30%;
+
+    }
+}
