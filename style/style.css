@@ -201,12 +201,14 @@ body{
 }
 .content{
     width: 100%;
+    font-size: 150%;
     height: max-content;
     padding-left: 15%;
 
 }
 .About-div p{
     color: white;
+    font-size: 150%;
     font-size: xx-large;
     text-align: justify;
     width: 70%;
@@ -291,7 +293,8 @@ body{
 }
 
 .content1 p, .content1 p a{
-    font-size: large;
+    /* font-size: large; */
+    font-size: 150%;
     color: white;
     text-decoration: none;
 }
@@ -355,6 +358,7 @@ body{
     margin-bottom: 40px;
 }
 .section h2 {
+    font-size: 150%;
     border-bottom: 2px solid #333;
     text-align: left;
     color: aliceblue;
@@ -363,6 +367,7 @@ body{
 }
 .section p {
     margin-bottom: 15px;
+    font-size: 150%;
     color: #9c94e0;
 }
 
