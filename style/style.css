@@ -220,7 +220,7 @@ body{
     /* background-image: linear-gradient(rgba(49, 4, 66, 0.363),rgba(7, 5, 100, 0.541)); */
     box-shadow: 10px 20px 50px rgba(0, 255, 85, 0.11);
     width: 70%;
-    height: 500px;
+    height: 600px;
     border-radius: 30px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -273,6 +273,12 @@ body{
 }
 .projects-content h2{
     color: white;
+    /* background-color: red; */
+    height: 100px;
+    word-wrap: break-word; /* Ensure content wraps */
+    overflow-wrap: break-word; /* Ensure content wraps */
+    word-break: break-word; /* Break long words */
+    white-space: normal; /* Ensure text can wrap */
 }
 
 .projects-content a{
