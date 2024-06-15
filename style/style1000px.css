@@ -179,6 +179,7 @@
     }
     .content1{
         /* text-align: center; */
+        display: block;
         padding-left:5% ;
         padding-bottom: 30%;
     }
@@ -313,6 +314,19 @@
     .projects-content p{
         
         color: white;
+    }
+
+    .last-links{
+        width: 100%;
+
+    }
+
+    .last-links img{
+        width: 30px;
+    }
+
+    .before-last-link{
+        width: 100%;
     }
   }
 
