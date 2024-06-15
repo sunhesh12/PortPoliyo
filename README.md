@@ -9,7 +9,6 @@ This site showcases my projects, skills, and professional experiences as a web d
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-<!-- - [Installation](#installation) -->
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
