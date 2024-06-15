@@ -296,6 +296,7 @@ body{
 
 .content1{
     padding-left:5% ;
+    display: flex;
 }
 
 .content1 p, .content1 p a{
@@ -391,6 +392,14 @@ footer a p img{
     margin-left: 5%;
     
 
+}
+
+.last-links{
+    width:40%;
+}
+
+.before-last-link{
+    width: 50%;
 }
 
 
