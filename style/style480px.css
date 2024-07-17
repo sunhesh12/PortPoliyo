@@ -28,4 +28,39 @@
         /* text-align: center; */
         width: 100%;
     }
+
+.About-div{
+    text-align: center;
+    height: max-content;
+    display: block;
+    background-color: rgba(25, 0, 255, 0.068);
+    padding-bottom: 2%;
+}
+
+.About-div h1{
+    padding-top: 2%;
+    color: white;
+    font-size: xx-large;
+}
+.content{
+    width: 100%;
+    font-size: 150%;
+    height: max-content;
+    padding-left: 5%;
+
+}
+.About-div p{
+    color: white;
+    /* font-size: 150%; */
+    /* font-size: xx-large; */
+    text-align: justify;
+    width: 90%;
+
+}
+
+.project-div{
+
+    width: 90%;
+
+}
 }
